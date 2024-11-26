@@ -1,0 +1,37 @@
+#id_contenedor_quien_eres {
+    background-color: coral;
+}
+
+#id_contenedor_de_donde_eres {
+    background-color: aqua;
+}
+
+#id_contenedor_inicio_sesion {
+    background-color: yellow;
+}
+
+#id_contenedor_condiciones {
+    background-color: purple;
+    color: white;
+}
+
+#id_contenedor_condiciones legend {
+    background-color: purple;
+    color: red;
+}
+
+.clase_texto {
+    color: red;
+}
+
+.clase_fecha {
+    color: yellow;
+}
+
+.clase_select {
+    color: green;
+}
+
+.clase_opciones {
+    color: orange;
+}

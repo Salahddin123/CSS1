@@ -1,0 +1,40 @@
+#Contenedor1{
+    background-color: orange;
+    height: 700px;
+    width: 700px;
+    margin:70px ;
+  }
+#Contenedor2{
+    background-color: coral;
+    height: 600px;
+    width: 600px;
+    margin:50px ;
+  }
+.boton{
+  background-color: darkblue;
+    height: 50px;
+    margin: 50px;
+    width: 400px;
+}
+
+.boton:nth-child(2){
+  background-color: rgb(64, 6, 253);
+    height: 40px;
+    margin: 40px;
+    width: 400px;
+}
+#Contenedor2 .boton:nth-child(3){
+  background-color: rgb(64, 6, 253);
+    height: 50px;
+    margin: 50px;
+    width: 400px;
+}
+#Contenedor2 .boton:nth-child(3):hover{
+  background-color: cadetblue;
+}
+.boton:nth-child(2):hover{
+  background-color:cadetblue;
+}
+.boton:hover{
+  background-color: beige;
+}

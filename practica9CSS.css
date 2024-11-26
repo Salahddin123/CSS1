@@ -1,0 +1,59 @@
+body {
+  background-color: rgb(18, 94, 161);
+}
+body nav,
+main {
+  margin-top: 30px;
+}
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+nav .d1,
+.d2,
+.d3 {
+  padding-left: 30px;
+  padding-top: 15px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+  border-radius: 10px;
+}
+.d1,
+.d2,
+.d3 {
+  background-color: rgb(40, 2, 2);
+}
+
+main {
+  display: flex;
+  justify-content: space-between;
+}
+section {
+  background-color: rgb(12, 116, 32);
+  width: 800px;
+}
+
+aside {
+  background-color: rgb(225, 84, 23);
+  width: 240px;
+  height: 360px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  justify-content: flex-start;
+}
+aside div {
+  text-align: center;
+  background-color: rgb(175, 11, 118);
+  width: 87px;
+  height: 30px;
+  border-radius: 10px;
+  margin-left: 10px;
+  margin-top: 6px;
+  padding-bottom: 10px;
+  padding-right: 5px;
+}

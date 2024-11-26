@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Actividad 2</title>
+    <link rel="stylesheet" href="./practica2CSS.css">
+</head>
+<body>
+    <h1>iDESWEB</h1>
+    <form>
+        <fieldset id="id_contenedor_quien_eres">
+            <legend>¿QUIÉN ERES?</legend>
+            <p><label class="clase_texto">Nombre: <input type="text" required autofocus></label></p>
+            <p><label class="clase_texto">Apellidos: <input type="text" required></label></p>
+            <p><label class="clase_texto">Correo electrónico: <input type="email"></label></p>
+            <p><label class="clase_fecha">Fecha de nacimiento: <input type="date"></label></p>
+        </fieldset>
+        <fieldset id="id_contenedor_de_donde_eres">
+            <legend>¿DE DÓNDE ERES?</legend>
+            <p><label class="clase_texto">Ciudad: <input type="text"></label></p>
+            <p><label class="clase_texto">Código postal: <input type="text"></label></p>
+            <p><label class="clase_select">País: 
+                <select>
+                    <option value="Spain">Spain</option>
+                    <option value="England">England</option>
+                    <option value="France">France</option>
+                    <option value="Germany">Germany</option>
+                    <option value="Italy">Italy</option>
+                    <option value="USA">USA</option>
+                    <option value="Morocco">Morocco</option>
+                </select>
+            </label></p>
+        </fieldset>
+        <br>
+        <fieldset id="id_contenedor_inicio_sesion">
+            <legend>¿CÓMO QUIERES INICIAR SESIÓN?</legend>
+            <p><label class="clase_texto">Nombre de Usuario: <input type="text" required></label></p>
+            <p><label class="clase_texto">Contraseña: <input type="password" required></label></p>
+            <p><label class="clase_texto">Vuelve a escribir la contraseña: <input type="password" required></label></p>
+        </fieldset>
+        <fieldset id="id_contenedor_condiciones">
+            <legend>CONDICIONES DE REGISTRO</legend>
+            <p>Deseo recibir ofertas de iDESWEB:</p>
+            <input type="radio" name="ofertas" id="diaria">
+            <label class="clase_opciones" for="diaria">Una vez al día</label>
+            <input type="radio" name="ofertas" id="semanal">
+            <label class="clase_opciones" for="semanal">Una vez a la semana</label>
+            <input type="radio" name="ofertas" id="mensual">
+            <label class="clase_opciones" for="mensual">Una vez al mes</label>
+            <br>
+            <input type="checkbox" name="condiciones" id="acepto" required>
+            <label class="clase_opciones" for="acepto">Acepto el acuerdo de servicios, la declaración de privacidad y el uso de cookies</label>
+        </fieldset>
+    </form>
+</body>
+</html>
